@@ -9,5 +9,5 @@ import feladatok
 class TestOsszeg(TestCase):
     def test_feladat01(self):
         aktualis = feladatok.feladat01()
-        elvart = 7
+        elvart = 5
         self.assertEqual(elvart, aktualis, "Nem jól határozta meg, hogy hányszor fordul elő, hogy a szám a következő szám négyzete!")
