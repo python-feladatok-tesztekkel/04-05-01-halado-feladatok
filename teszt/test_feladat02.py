@@ -9,5 +9,5 @@ import feladatok
 class TestOsszeg(TestCase):
     def test_feladat02(self):
         aktualis = feladatok.feladat02()
-        elvart = 4
+        elvart = 3
         self.assertEqual(elvart, aktualis, "Nem jól határozta meg, azon számpárok számát amelyek összege pontossan 100!")
